@@ -1,8 +1,49 @@
 <html>
-  <head>
-    <script></script>
-  </head>
-  <body>
-    hello world
-  </body>
+<head>
+<script>
+
+// これはコメントです. この一行はプログラムにはなりません.
+
+// ダイアログを表示します.
+alert("hello world!");
+
+// 開発者モード(F12)のコンソールに表示します.
+console.log("hello world!");
+
+// var で変数を宣言します.
+var price1;
+// = を使って代入します. 必ず 右 を 左 に代入します.
+price1 = 1000;
+var price2;
+price2 = 500;
+
+// 変数の宣言と同時に代入できます
+var sum = price1 + price2;
+console.log(sum);
+
+// 算術演算子は以下の通りです.
+// + 加算
+// - 減算
+// * 乗算
+// / 除算
+// % 剰余
+// ** 累乗 (Javascriptはこれ)(IEでは動きません!)
+// ^ 累乗 (Javascriptは無いそうです
+
+
+console.log(100 + 200 > 400);
+console.log(100 + 200 * -1 + 2 < 400);
+
+// もちろん一度, 変数に保存してから, 表示できます.
+var result = 100 + 200 * -1 + 2 < 400
+console.log(result);
+
+// 文字列も足し算できます.
+console.log("浅井" + "敏之");
+
+</script>
+</head>
+<body>
+Hello World
+</body>
 </html>
